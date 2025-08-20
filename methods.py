@@ -1,3 +1,4 @@
+import pydoc
 from itertools import batched
 
 obj = "example_str"
@@ -18,3 +19,7 @@ print("====="*10)
 for batch in batched(methods, n):
     print(batch)
 print("====="*10)
+
+
+
+print(pydoc.render_doc(str.ljust))
