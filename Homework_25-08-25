@@ -1,0 +1,88 @@
+# 1.
+# age = int(input('Enter your age: '))
+# def verification(age):
+#     if age >= 12 and age <= 18:
+#         print(True)
+# verification(age)
+
+# 2.
+# x = int(input('Enter number: '))
+# def verification_2(x):
+#     if x % 2 == 0 and x % 3 == 0 :
+#         return True
+
+# 3.
+# def is_palindrom(text:str)-> bool:
+#     len_text = len(text)
+#     if len_text == 0:
+#         return False
+#     if len_text == 1:
+#         return True
+#     for i in range(len_text//2):
+#         left_index = i
+#         left_letter = text[left_index]
+#         # print(f"{left_letter=}")
+#         right_index = -i-1
+#         right_letter = text[right_index]
+#         # print(f"{i=}, {right_index=} {right_letter=}")
+#         if left_letter != right_letter:
+#             return False
+#     return True
+
+# word_one = "level"
+# word_two = "leval"
+
+# result_one = is_palindrom(word_one)
+# print(result_one)
+# print()
+
+# result_two = is_palindrom(word_two)
+# print(result_two)
+
+# 4.
+# a = 5
+# b = 10
+# a,b = b,a
+# print(f"a = {a},b = {b}")
+
+# 5.
+# nums = [10,20,30]
+# x,y,z = nums
+# print(f"x = {x}, y = {y}, z = {z}")
+
+# 6.
+# nums_list = [5,2,9,1]
+# print(max(nums_list))
+# print(min(nums_list))
+# print(sum(nums_list))
+# print(sorted(nums_list))
+
+# 7.
+# int_1 = -17.5
+# print(abs(int_1))
+# print(round(int_1,1))
+
+# 8.
+# name = 'misha'
+# print(name.capitalize())
+
+# 9.
+# num_1 = 1234
+# str_1 = str(num_1)
+# str_2 = str_1[::-1]
+# num_2 = int(str_2)
+# print(num_2)
+
+# 10.
+# total_seconds = 3661
+# hours = total_seconds // 3600
+# minutes = (total_seconds % 3600) // 60
+# seconds = total_seconds % 60
+# print(f"{hours}:{minutes}:{seconds}")
+
+# 11.
+# nums = [3,6,9]
+# total_sum = sum(nums)
+# total_len = len(nums)
+# result = total_sum / total_len
+# print(result)
