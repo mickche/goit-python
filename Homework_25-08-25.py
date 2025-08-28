@@ -9,7 +9,8 @@
 # x = int(input('Enter number: '))
 # def verification_2(x):
 #     if x % 2 == 0 and x % 3 == 0 :
-#         return True
+#         print(True)
+# verification_2(x)
 
 # 3.
 # def is_palindrom(text:str)-> bool:
@@ -81,7 +82,7 @@
 # print(f"{hours}:{minutes}:{seconds}")
 
 # 11.
-# nums = [3,6,9]
+# nums = [3,6,9,7,8,9,0,10]
 # total_sum = sum(nums)
 # total_len = len(nums)
 # result = total_sum / total_len
