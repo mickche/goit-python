@@ -9,7 +9,13 @@ def number():
         except ValueError:
             print("Введіть ціле число.")
             continue
-        print("Гарна спроба!" if 1 <= guess <= 100 else "Спробуй ще!")
+        # print("Гарна спроба!" if 1 <= guess <= 100 else "Спробуй ще!")
+
+        # if 1 <= guess <= 100:
+        #     print("Гарна спроба!")
+        # else:
+        #     print("Спробуй ще!")
+
         if guess < secret_number:
             print("Трішки більше...")
         elif guess > secret_number:
@@ -19,7 +25,8 @@ def number():
             break
 
 def main():
-    number()
+    # number()
+    print()
 
-if __name__  == main():
+if __name__ == main():
     main()
