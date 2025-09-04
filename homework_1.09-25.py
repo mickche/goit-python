@@ -10,13 +10,20 @@ market = {
         'name':'Apple2',
         'q': 6,
         'p':20
+    },
+    3:{
+        'name':'Pear',
+        'q': 4,
+        'p':12
+    },
+    4:{
+        'name':'Banana',
+        'q': 6,
+        'p': 7
     }
-
 }
-
 your_dict_product = {}
 balance = 100
-
 print(f'Balance before = {balance} \n')
 print("--- list of product ---")
 for key, product in market.items():
@@ -25,7 +32,6 @@ for key, product in market.items():
     print(f"Quantity: {product['q']} ")
     print(f"Prise: {product['p']} ")
     print('\n')
-
 while True:
     try:
         a = int(input("Enter 1 to continue shopping, 2 chekout , 0 quit: "))
@@ -83,12 +89,9 @@ while True:
             balance -= total
         else:
             print('Payment NOT successfull \n')
-
             print(f'You owe US!!! {total - balance} \n')
             balance = 0
-
         print('Come back again :) \n')
-
         break
     elif a == 0:
         print('Quit...')
