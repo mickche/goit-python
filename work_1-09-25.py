@@ -8,24 +8,24 @@
 #     for j in range(1,11):
 #         print(i*j, end="\t")
 
-# a = int(input())
-# b = int(input())
-# c = int(input())
-# d = int(input())
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
 
 
-# #print header
-# print(end = '\t')
-# for i in range(c, d + 1) :
-#     print(i, end = '\t')
-# print("")
+#print header
+print(end = '\t')
+for i in range(c, d + 1) :
+    print(i, end = '\t')
+print("")
 
-# #print table
-# for i in range(a, b + 1) :
-#     print(i, end = '\t')
-#     for j in range(c, d + 1) :
-#         print(i * j, end = '\t')
-#     print("")
+#print table
+for i in range(a, b + 1) :
+    print(i, end = '\t')
+    for j in range(c, d + 1) :
+        print(i * j, end = '\t')
+    print("")
 
 # while False:
 #     print('Hi')
