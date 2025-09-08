@@ -48,13 +48,13 @@
 #     if x < 0:
 #         raise ValueError("Enter positive integer")
 #     result = 1
-#     a = 1
+#     i = 1
 #     if x in [0, 1]:
 #         return result
-#     while  a <= x:
-#         result *= a
-#         a += 1
-
+#     while  i <= x:
+#         result *= i
+#         i += 1
+#         # i -= 1
 #     print(result)
 # f(3)
 
