@@ -12,7 +12,7 @@
 #   if letter == letter_find:
 #     count += 1
 
-# print(f"Wowd '{word}' has {count} letter '{letter_find}'.")
+# print(f"Word '{word}' has {count} letter '{letter_find}'.")
 
 # 12.
 # price_per_kg = float(input("Enter price per kg: "))
@@ -56,7 +56,7 @@
 #         i += 1
 #         # i -= 1
 #     print(result)
-# f(3)
+# f(19)
 
 # 16
 # a = int(input("(a): "))
@@ -67,14 +67,12 @@
 # if c == 0:
 #     print("c != 0")
 # else:
-
 #     if a > b:
 #         a, b = b, a
 
 #     count = 0
 
 #     for num in range(a, b + 1):
-
 #         if num % c == 0:
 #             count += 1
 
