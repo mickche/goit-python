@@ -11,4 +11,6 @@ def validate_age():
             break
         elif age >= 100:
             print('You are Veryyyyyyyy old. :)')
+        else:
+            print(f'You are old {age} years')
 validate_age()
