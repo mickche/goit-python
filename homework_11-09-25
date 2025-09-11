@@ -6,7 +6,7 @@ def validate_age():
             print('Enter positive number.')
             print()
             continue
-        if age >= 0:
+        if age <= 0:
             print("You weren't born yet, how do you write?")
             break
         elif age >= 100:
