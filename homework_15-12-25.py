@@ -38,7 +38,7 @@ def cumulative_sum_generator(numbers):
         total += num
         yield total
 
-# --- 5. CSV в словник (Емуляція) ---
+
 def csv_dict_generator(data):
     if not data:
         return
